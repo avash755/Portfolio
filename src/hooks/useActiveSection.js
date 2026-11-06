@@ -1,0 +1,14 @@
+import { useEffect, useState } from 'react';
+export function useActiveSection(ids) {
+  const [active, setActive] = useState(ids[0]);
+  useEffect(() => {
+    const nodes = ids.map((id) => document.getElementById(id)).filter(Boolean);
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((e) => e.isIntersecting).sort((a,b) => b.intersectionRatio-a.intersectionRatio)[0];
+      if (visible) setActive(visible.target.id);
+    }, { rootMargin: '-25% 0px -55% 0px', threshold: [0.05, 0.2, 0.5] });
+    nodes.forEach((n) => observer.observe(n));
+    return () => observer.disconnect();
+  }, [ids]);
+  return active;
+}
