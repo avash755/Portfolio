@@ -1,16 +1,12 @@
 export const fallbackProfile = {
   name: 'Emtayes Anwar Avash',
   shortName: 'EMTAYES_ANWAR',
-  role: 'Software Developer',
+  role: 'Web Developer',
   location: 'Khulna, Bangladesh',
-  bio: 'A developer driven by a passion for building things. I create full-stack applications, explore game development, and enjoy experimenting with new technologies. Always learning, building, and turning ideas into reality.',
-  languages: ['C#', 'JavaScript', 'C++', 'Python'],
-  stack: ['React', 'MongoDB', 'Node', 'Express'],
-  gameDevelopment: ['Unity','Blender','LibreSprite'],
-  creativeTools: ['Photoshop','Premiere Pro','After Effects','Illustrator','Figma','Krita'],
-   interests: ['Artificial Intelligence','Robotics','IoT','Game Development'],
+  bio: 'Web developer focused on responsive interfaces and practical web applications, learning through building and improving real projects.',
+  languages: ['JavaScript'],
+  stack: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB'],
   status: true,
-  resumeUrl: '/resume.pdf',
   socialLinks: { github: 'https://github.com/avash755', linkedin: 'https://www.linkedin.com/in/emtayesanwaravash/' }
 };
 
@@ -62,7 +58,7 @@ export const fallbackProjects = [
       'Tailwind CSS',
       'JWT',
       'nodemailer'], 
-    image: '/assets/Inventory-Invoice-Manager.png', 
+    image: null,
     liveUrl: 'https://inventory-invoice-management-frontend.vercel.app', 
     githubUrl: 'https://github.com/avash755/Exercise-Management-System-Frontend', 
     featured: true 
@@ -70,19 +66,15 @@ export const fallbackProjects = [
 ];
 
 export const fallbackSkills = {
-  Frontend: ['React', 'Tailwind CSS', 'HTML', 'CSS'],
-  Backend: ['Node.js', 'Express', 'MongoDB'],
-  Programming: ['JavaScript', 'Python', 'Java', 'C++', 'C', 'C#'],
-  'Tools & OS': ['Git', 'VS Code', 'Figma', 'Linux', 'Postman', 'mongoDB Compass','Vercel', 'Netlify', 'Unity', 'Premiere Pro', 'After Effects', 'Blender', 'Photoshop', 'Illustrator']
+  Frontend: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
+  Backend: ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL'],
+  'Development Tools': ['Git', 'VS Code', 'Figma', 'Postman', 'MongoDB Compass', 'Vercel', 'Netlify']
 };
 
 export const fallbackJourney = [
-  { year: '2023', title: 'First Steps into Programming', description: 'Started learning Python during my 1st and 2nd semesters. Built my understanding of programming fundamentals and logical thinking.', category: 'Foundation' },
-  { year: 'Late 2024', title: 'Discovered Web Development', description: 'Started my web development journey during my 3rd semester. Learned HTML, CSS, JavaScript, and explored Python OOP.', category: 'Web Development' },
-  { year: '2025', title: 'Explored Java & C', description: 'I started learning Java for my 4th semester finals and later moved to C programming, expanding my understanding of programming languages and problem-solving.', category: 'Programming Exploration' },
-  { year: 'May 16, 2026', title: 'Won a medal', description: 'In my first-ever contest, I won 1st place in the first round and received a medal at the National High School Programming Contest 2026. However, due to personal reasons, I didn\'t participate in the second round.', category: 'Competitive Programming' },
-  { year: 'July 13, 2026', title: 'Another Challenge — 4th Place', description: 'Participated in another programming competition and secured 4th place, gaining more competitive programming experience.', category: 'Competitive Programming' },
-  { year: 'August 2026', title: 'Completed the MERN Stack', description: 'Completed my MERN stack learning journey during my 5th-semester final exams. Worked with MongoDB, Express.js, React, and Node.js to understand full-stack application development.', category: 'Full-Stack Development' },
-  { year: 'September 2026', title: 'DSA Meets Game Development', description: 'Currently focusing on Data Structures & Algorithms while exploring game development with Unity and C#. Continuing to strengthen my fundamentals, build projects, and explore new technologies.', category: 'Building & Exploring' }
+  { year: '2024', title: 'Started Web Development', description: 'Explored the fundamentals of web development, learning HTML for structure and CSS for styling and building responsive layouts.', category: 'Web Foundations' },
+  { year: '2025', title: 'Bringing Websites to Life', description: 'Started learning JavaScript and explored DOM manipulation, interactive elements, and the fundamentals of dynamic web development.', category: 'JavaScript' },
+  { year: 'June 21, 2026', title: 'Entered the Backend World', description:'Started learning Node.js, Express.js, and MongoDB, exploring server-side development, REST APIs, database operations, and backend architecture.', category: 'Backend Development' },
+  { year: 'August 19, 2026', title: 'Started Learning React.js', description: 'Moved into component-based development with React.js, learning reusable components, state management, and modern frontend architecture.', category: 'Frontend Development' },
+  { year: 'Late 2026', title: 'Completed the MERN Stack', description: 'Completed my MERN stack learning journey during my 5th-semester final exams, bringing together MongoDB, Express.js, React.js, and Node.js to build full-stack web applications.', category: 'Full-Stack Development' },
 ];
-

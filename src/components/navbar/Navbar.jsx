@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useActiveSection } from '../../hooks/useActiveSection';
-const links = [['home','Home'],['about','About'],['projects','Projects'],['skills','Skills'],['journey','Journey'],['contact','Contact']];
+const links = [['home','Home'],['about','About'],['projects','Projects'],['skills','Skills'],['journey','Experience'],['contact','Contact']];
 export default function Navbar() {
   const [open,setOpen]=useState(false); const active=useActiveSection(links.map(([id])=>id));
   const go=(id)=>{document.getElementById(id)?.scrollIntoView({behavior:'smooth'});setOpen(false)};

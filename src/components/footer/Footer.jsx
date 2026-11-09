@@ -4,7 +4,7 @@ export default function Footer(){
             <div className="container footer-main">
                 <div>
                     <div className="brand footer-brand">EMTAYES_ANWAR<span>.DEV</span></div>
-                    <p>Built with code & curiosity.</p>
+                    <p>Building useful web applications with modern technologies.</p>
                 </div>
                 <div className="footer-links">
                     <a href="#home">Home</a>
@@ -24,8 +24,8 @@ export default function Footer(){
                 </div>
             </div>
             <div className="container footer-bottom">
-                <span>© 2026 Emtayes Anwar Avash. All rights reserved.</span>
-                <span>Code · Creativity · Continuous Learning</span>
+                <span>© 2026 Emtayes Anwar Avash. </span>
+                <span>All rights reserved.</span>
             </div>
         </footer>
     }

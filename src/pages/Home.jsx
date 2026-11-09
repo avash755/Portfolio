@@ -18,12 +18,10 @@ export default function Home({ data }) {
         <Projects projects={data.projects} />
         <Skills skills={data.skills} />
         <Journey journey={data.journey} />
-        <GithubActivity profile={data.profile} />
+        {/* <GithubActivity profile={data.profile} /> */}
         <Contact />
       </main>
       <Footer />
     </>
   );
 }
-
-
